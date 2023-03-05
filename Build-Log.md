@@ -40,22 +40,10 @@ The following tools were used in this assembly
 The [assembly guide](https://cdn.shopifycdn.net/s/files/1/0553/6573/0348/files/T1_PNP_Assembly_Guide.pdf?v=1640164559) released by Heewing
 should be used to get through the initial setup of the plane. 
 2. Continue by applying the VTOL modifications. VTOL conversion kit would require installing new higher-powered motors, a rear motor, and tilt servos. This build log does go over it however Heewing has released (instructional videos)[https://www.heewing.com/products/hee-wing-t1-ranger-vtol-conversion-kit] on how to accomplish this.
-   * Remove both motors and motor mounts and desolder the existing ESCs to replace them with your new ESCs.
-   * Solder the new motors onto the new ESCs and install the tilt servos.
-   * Slide the rear motor mount through the carbon fiber tail boom and push the motor wires through the hole on the lower end of the pipe.
-   * Solder bullet connectors onto the rear motor wires poking through the end of the tail boom (optionally you can solder the wires directly to the ESC).
-   * Solder bullet connectors onto the ESC for the rear motor.
-   * Slide the tail boom onto the fuselage of the plane and secure using the red nut.
-3. Mount VTX onto the top front hatch of the fuselage.
-   * Carefully cut away foam from the front hatch of the plane using the VTX as a guide. Once enough foam has been removed the VTX should fit snuggly into the hole. Be sure to leave room for the power and ground wires
-   * Using a hot iron poke two holes into the side of the fuselage angled downward for the VTX antennas to come out of.
-![VTXmount](https://user-images.githubusercontent.com/117425577/222986304-8e28166f-7c83-4067-a0f2-11b368eb17f9.jpg)
-
-4. Mount GPS using 3DPrinted parts. In our design, we decided to mount the GPS to the interior of the plane because it presented a cleaner solution than having it mounted onto the exterior.
-   * 3D print GPS stands.
-   * Melt through the top of the GPS stands so that screws can fit through.
-   * Secure the 3D Printed GPS stands to the wooden rails inside the fuselage. 
-   * Screw on the GPS to the stands.
+3. Wire and mount Flight Controller
+4. Mount GPS.
+   * In our design, we decided to mount the GPS using 3d printed parts to the interior of the plane because it presented a cleaner solution than having it mounted onto the exterior.
+   
    
 ### Wiring
 * The following chart is the configuration we used on our flight controller. Refer to the [pinout for the Kakute H7 mini](https://docs.holybro.com/fpv-flight-controller/kakute-h7-mini/pinout) for more details
